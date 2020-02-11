@@ -1,3 +1,4 @@
+	// excel export 공통함수로 만들어서 중복 구현하지 않도록 처리 
 	function fn_excelExport(fileName) {
 		$('#grid').tableExport({
 			  headers: true,                      // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
